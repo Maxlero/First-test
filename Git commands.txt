@@ -1,0 +1,33 @@
+Working file -> Staging Area -> Repository 
+
+git init - initialization of Repository
+pwd - location git
+ls - list of items in repository
+git log - shows all commits
+git log --author="Bucky" - only Bucky's commits
+git status - what's going on?
+git diff - changes between Working file and Repository
+git diff --staged - changes between Working file and Staging Area
+git rm example.txt - remove example.txt file
+
+to remane the file do next:
+rename in branch
+git add newfilename
+git rm oldfilename
+tha's it! Done =) 
+
+OR:
+git mv old.txt new.txt
+that's easier
+
+move and rename:
+git mv old.txt newfolder/new.txt
+
+git commit -am "bla bla bla" - commit directly to the Repository
+
+git checkout -- filename.txt - restore a file from the Repository to working copy
+
+git add . - sent to the staging area
+git reset HEAD filename.txt - reset from staging area to the working copy (Unstage file)
+
+git checkout 01e7bda -- filename.txt - restore an version on file (commited as 01e7bda bla bla bla) make a commite after that
