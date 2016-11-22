@@ -31,3 +31,8 @@ git add . - sent to the staging area
 git reset HEAD filename.txt - reset from staging area to the working copy (Unstage file)
 
 git checkout 01e7bda -- filename.txt - restore an version on file (commited as 01e7bda bla bla bla) make a commite after that
+
+git remote - list of git projects on github
+
+$ git remote add githubNameforPC https://github.com/Maxlero/First-test.git - link from github to new repository
+$ git push -u githubRepo master - upload project to github
